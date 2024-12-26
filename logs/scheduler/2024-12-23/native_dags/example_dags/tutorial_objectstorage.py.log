@@ -1,0 +1,22 @@
+[2024-12-23T21:56:38.924+0000] {processor.py:186} INFO - Started process (PID=72) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-12-23T21:56:38.925+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-12-23T21:56:38.928+0000] {logging_mixin.py:190} INFO - [2024-12-23T21:56:38.928+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-12-23T21:56:38.942+0000] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-12-23T21:56:39.084+0000] {logging_mixin.py:190} INFO - [2024-12-23T21:56:39.083+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:tutorial_objectstorage
+[2024-12-23T21:56:39.097+0000] {logging_mixin.py:190} INFO - [2024-12-23T21:56:39.097+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:tutorial_objectstorage
+[2024-12-23T21:56:39.106+0000] {logging_mixin.py:190} INFO - [2024-12-23T21:56:39.106+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:tutorial_objectstorage
+[2024-12-23T21:56:39.119+0000] {logging_mixin.py:190} INFO - [2024-12-23T21:56:39.118+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:tutorial_objectstorage
+[2024-12-23T21:56:39.135+0000] {logging_mixin.py:190} INFO - [2024-12-23T21:56:39.135+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:tutorial_objectstorage
+[2024-12-23T21:56:39.147+0000] {logging_mixin.py:190} INFO - [2024-12-23T21:56:39.147+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:tutorial_objectstorage
+[2024-12-23T21:56:39.157+0000] {logging_mixin.py:190} INFO - [2024-12-23T21:56:39.156+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:tutorial_objectstorage
+[2024-12-23T21:56:39.158+0000] {logging_mixin.py:190} INFO - [2024-12-23T21:56:39.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T21:56:39.173+0000] {logging_mixin.py:190} INFO - [2024-12-23T21:56:39.173+0000] {dag.py:3262} INFO - Creating ORM DAG for tutorial_objectstorage
+[2024-12-23T21:56:39.175+0000] {logging_mixin.py:190} INFO - [2024-12-23T21:56:39.174+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-12-23T21:56:39.194+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.276 seconds
+[2024-12-23T21:57:09.689+0000] {processor.py:186} INFO - Started process (PID=135) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-12-23T21:57:09.690+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-12-23T21:57:09.692+0000] {logging_mixin.py:190} INFO - [2024-12-23T21:57:09.691+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-12-23T21:57:09.703+0000] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-12-23T21:57:09.719+0000] {logging_mixin.py:190} INFO - [2024-12-23T21:57:09.719+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T21:57:09.734+0000] {logging_mixin.py:190} INFO - [2024-12-23T21:57:09.734+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-12-23T21:57:09.753+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.070 seconds
